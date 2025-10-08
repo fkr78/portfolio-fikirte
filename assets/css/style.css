@@ -10,7 +10,7 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-/* Custom Nav Link Hover Effect */
+/* Custom Nav Link Hover Effect (Black/White only) */
 .navbar-nav .nav-link {
     font-weight: 600;
     color: #343a40 !important; /* Dark text */
@@ -18,10 +18,10 @@
 }
 
 .navbar-nav .nav-link:hover {
-    color: #0d6efd !important; /* Bootstrap Blue on hover */
+    color: #000000 !important; /* Force Black on hover */
 }
 
-/* Hover effect for project cards */
+/* Hover effect for project cards (Black/White only) */
 .hover-lift {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -33,4 +33,10 @@
 /* Styling for the timeline circles */
 .position-relative span.rounded-circle {
     box-shadow: 0 0 0 3px #ffffff, 0 0 0 5px #000000; /* White and Black rings */
+}
+
+/* Outline button hover to match theme */
+.btn-outline-dark:hover {
+    background-color: #000000 !important;
+    color: #ffffff !important;
 }
